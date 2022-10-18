@@ -1,0 +1,346 @@
+{ 
+    "menu": [
+        {
+            "maträtt": "Fläskfiléplanka",
+            "course": "Pork tenderloin plank steak",
+            "imgSrc": "pictures_food/pork-tenderloin.jpg",
+            "alt":"Pork tenderloin plank steak",
+            "innehåll": [
+                "fläskfilé",
+                "duchesse mos", 
+                "rödvinssky", 
+                "bearnaise", 
+                "stekta grönsaker"
+            ],
+            "ingredients": [
+                "pork tenderloin",
+                "duchesse potatoes", 
+                "redwine reduction", 
+                "bearnaise", 
+                "fried vegetables"
+            ],
+            "typ": "kött",
+            "sort": "meat",
+            "allergi": ["laktos"],
+            "allergy": ["lactose"],
+            "pris": 149, 
+            "artikelPris":"149 kr",
+            "beskrivining": "Duchesse mos, rödvinssky, bearnaise och stekta grönsaker",
+            "description": "Duchesse potatoes, a redwine reduction, bearnaise and fried vegetables" 
+        },
+        {
+            "maträtt": "Biff rydberg",
+            "course": "Biff rydberg",
+            "imgSrc": "pictures_food/beef-rydberg.jpg",
+            "alt":"Biff rydberg",
+            "innehåll": [
+                "oxfilé",
+                "potatis", 
+                "gullök", 
+                "dijonsenapskräm", 
+                "rå ägggula"
+            ],
+            "ingredients": [
+                "beef tenderloin", 
+                "potatoes",
+                "onion", 
+                "dijonmustard", 
+                "raw egg yolk"
+            ],
+            "typ": "kött",
+            "sort": "meat",
+            "allergi": [ ],
+            "allergy": [ ],
+            "pris": 175, 
+            "artikelPris":"175 kr",
+            "beskrivining": "Tärnad oxfilé, potatis och gullök, serveras med dijonsenapskräm och rå ägggula",
+            "description": "Diced beef tenderloin, potatoes and onion, served with dijonmustard and raw egg yolk" 
+        },
+        {
+            "maträtt": "Spicy cheeseburger",
+            "course": "Spicy cheeseburger",
+            "imgSrc": "pictures_food/Cheese-burger.jpg",
+            "alt":"Spicy cheeseburger",
+            "innehåll": [
+                "cheddarost", 
+                "högrevsburgare", 
+                "sallad", 
+                "tomat",
+                "picklad rödlök",
+                "jalapeños",
+                "barbecuesås",
+                "briochebröd",
+                "pommes",
+                "rökig ranch-aioli"
+            ],
+            "ingredients": [
+                "cheddar cheese", 
+                "prime rib burger", 
+                "salad",
+                "tomato", 
+                "pickled red onion",
+                "jalapeños",
+                "barbecue sauce",
+                "brioche bread",
+                "fries",
+                "smokey ranch-aioli"
+            ],
+            "typ": "kött",
+            "sort": "meat",
+            "allergi": ["laktos", "gluten"],
+            "allergy": ["lactose", "gluten"],
+            "pris": 155, 
+            "artikelPris":"155 kr",
+            "beskrivining": "180g högrevsburgare med sallad, tomat, picklad rödlök, cheddarost med jalapeños och barbecuesås i briochebröd med pommes och rökig ranch-aioli",
+            "description": "180g prime rib burger with lettuce, tomato, pickled red onion, cheddar cheese with jalapeños and barbecue sauce in brioche bread with fries and smokey ranch-aioli" 
+        },
+        {
+            "maträtt": "Halloumi burgare",
+            "course": "Halloumi burger",
+            "imgSrc": "pictures_food/halloumi-burger.jpg",
+            "alt":"Halloumi burger",
+            "innehåll": [
+                "halloumi", 
+                "sallad", 
+                "tomat", 
+                "rödlök",
+                "guacamole",
+                "briochebröd",
+                "briochebröd", 
+                "aioli"
+            ],
+            "ingredients": [
+                "halloumi", 
+                "lettuce", 
+                "tomato", 
+                "red onion",
+                "guacamole",
+                "brioche bread",
+                "fries", 
+                "aioli"
+            ],
+            "typ": "vegetariskt",
+            "sort": "vegetarian",
+            "allergi": ["laktos", "gluten"],
+            "allergy": ["lactose", "gluten"],
+            "pris": 155, 
+            "artikelPris":"155 kr",
+            "beskrivining": "Halloumi med sallad, tomat, rödlök och guacamole i briochebröd med briochebröd och aioli",
+            "description": "Halloumi with lettuce, tomato, red onion and guacamole in brioche bread with fries and aioli"
+        },
+        {
+            "maträtt": "Fish'n chips",
+            "course": "Fish'n chips",
+            "imgSrc": "pictures_food/fish-and-chips.jpg",
+            "alt":"Fish'n Chips",
+            "innehåll": [
+                "torskrygg", 
+                "dill-aioli", 
+                "citron", 
+                "pommes"
+            ],
+            "ingredients": [
+                "cod loins", 
+                "dill-aioli", 
+                "lemon", 
+                "fries"
+            ],
+            "typ": "fisk",
+            "sort": "fish",
+            "allergi": ["laktos"],
+            "allergy": ["lactose"],
+            "pris": 149, 
+            "artikelPris":"149 kr",
+            "beskrivining": "'Beer-batter' panerad torskrygg med dill-aioli, halstrad citron och pommes",
+            "description": "'Beer-batter' breaded cod loins with dill-aioli, seared lemon and fries"
+        },
+        {
+            "maträtt": "Husets schnitzel",
+            "course": "Schnitzel",
+            "imgSrc": "pictures_food/schnitzel.jpg",
+            "alt":"Schnitzel",
+            "innehåll": [
+                "schnitzel", 
+                "citron", 
+                "kapris", 
+                "anjovis",
+                "kryddsmör",
+                "rödvinssky",
+                "stekta potatis"
+            ],
+            "ingredients": [
+                "schnitzel", 
+                "lemon", 
+                "anchovy",
+                "herb", 
+                "butter",
+                "redwine reduction",
+                "fried potatoes"
+            ],
+            "typ": "kött",
+            "sort": "meat",
+            "allergi": ["laktos"],
+            "allergy": ["lactose"],
+            "pris": 175, 
+            "artikelPris":"175 kr",
+            "beskrivining": "200g välansad schnitzel 'Borås största' med citron, kapris, anjovis, kryddsmör och rödvinssky serveras med stekt potatis",
+            "description": "200g of meet 'Borås biggest' served with lemon, capers, anchovy, herb, butter and redwine reduction with fried potatoes" 
+        },
+        {
+            "maträtt": "Caesarsallad",
+            "course": "Caesar salad",
+            "imgSrc": "pictures_food/caesarsalad.jpg",
+            "alt":"Caesar salad",
+            "innehåll": [
+                "schnitzel", 
+                "citron", 
+                "kapris", 
+                "anjovis",
+                "kryddsmör",
+                "rödvinssky",
+                "stekta potatis"
+            ],
+            "ingredients": [
+                "schnitzel", 
+                "lemon", 
+                "anchovy",
+                "herb", 
+                "butter",
+                "redwine reduction",
+                "fried potatoes"
+            ],
+            "typ": "kött",
+            "sort": "meat",
+            "allergi": ["laktos", "gluten"],
+            "allergy": ["lactose", "gluten"],
+            "pris": [
+                ["halv", 85],
+                ["hel", 139]
+            ], 
+            "artikelPris": "Halv 85 kr / Hel 139 kr",
+            "beskrivining": "Varm kyckling, bacon, krutonger, parmesan samt caesardressing",
+            "description": "Grilled chicken, bacon, croutons, parmesan and caesar dressing" 
+        },
+        {
+            "maträtt": "Laxsallad med quinoa",
+            "course": "Salmon salad with quinoa",
+            "imgSrc": "pictures_food/salmon-salad.jpeg",
+            "alt":"Salmon salad with quinoa",
+            "innehåll": [
+                "lax", 
+                "quinoa", 
+                "cocktailtomater", 
+                "blandsallad",
+                "morot julienne",
+                "rödlök",
+                "vinägrett"
+            ],
+            "ingredients": [
+                "salmon", 
+                "quinoa", 
+                "cocktail tomatoes",
+                "julianne carrot", 
+                "mixed salad",
+                "red onion",
+                "vinegrette"
+            ],
+            "typ": "fisk",
+            "sort": "fish",
+            "allergi": [ ],
+            "allergy": [ ],
+            "pris": 159, 
+            "artikelPris":"159 kr",
+            "beskrivining": "Grillad lax med quinoa, cocktailtomater, blandsallad, morot julienne, rödlök med en vinägrett",
+            "description": "Grilled salmon with quinoa, cocktail tomatoes, julianne carrot, mixed salad, red onion with vinegrette" 
+        },
+
+        {
+            "maträtt": "Krämig kycklingpasta",
+            "course": "Creamy chicken pasta",
+            "imgSrc": "pictures_food/creamy-chicken-pasta.jpg",
+            "alt":"Creamy chicken pasta",
+            "innehåll": [
+                "soltorkade tomater", 
+                "basilika", 
+                "grönsaker", 
+                "parmesan"
+            ],
+            "ingredients": [
+                "Sun-dried tomatoes", 
+                "basil", 
+                "vegetables",
+                "parmesan"
+            ],
+            "typ": "kött",
+            "sort": "meat",
+            "allergi": ["gluten"],
+            "allergy": ["gluten"],
+            "pris": 169, 
+            "artikelPris":"169 kr",
+            "beskrivining": "Soltorkade tomater, basilika, grönsaker och parmesan",
+            "description": "Sun-dried tomatoes, basil, vegetables and parmesan" 
+        },
+
+        {
+            "maträtt": "Musslor àl cava",
+            "course": "Musslor àl cava",
+            "imgSrc": "pictures_food/mussles.jpeg",
+            "alt":"Musslor àl cava",
+            "innehåll": [
+                "musslor", 
+                "citron", 
+                "kapris", 
+                "anjovis",
+                "kryddsmör",
+                "rödvinssky",
+                "stekta potatis"
+            ],
+            "ingredients": [
+                "mussles", 
+                "lemon", 
+                "anchovy",
+                "herb", 
+                "butter",
+                "redwine reduction",
+                "fried potatoes"
+            ],
+            "typ": "fisk",
+            "sort": "fish",
+            "allergi": ["laktos"],
+            "allergy": ["lactose"],
+            "pris": [
+                ["halv", 109],
+                ["hel", 189]
+            ], 
+            "artikelPris":"Halv 109 kr / Hel 189 kr",
+            "beskrivining": "Ångkokta musslor i en krämig sås gjord på cava, toppas med creme fraîche och jalapeños, serveras med pommes och aioli",
+            "description": "Steam mussels in a creamy cava saus, topped with cream fraîche and jalapeños, served with fries and aioli" 
+        },
+        {
+            "maträtt": "Grillad oxfilé",
+            "course": "Grilled beef tenderloin",
+            "imgSrc": "pictures_food/beef-tenderloin.jpg",
+            "alt":"Grilled beef tenderloin",
+            "innehåll": [
+                "oxfilé", 
+                "rödvinssås", 
+                "frästa grönsaker", 
+                "potatisgratäng"
+            ],
+            "ingredients": [
+                "beef tenderloin", 
+                "redline reduction", 
+                "fried vegetables",
+                "potato gratin"
+            ],
+            "typ": "kött",
+            "sort": "meat",
+            "allergi": ["laktos"],
+            "allergy": ["lactose"],
+            "pris": 259, 
+            "artikelPris":"259 kr",
+            "beskrivining": "200g oxfilé, rödvinssås, frästa grönsaker serveras med potatisgratäng (går att få med pommes och bearnaise)",
+            "description": "200g beef tenderloin, redline reduction, fried vegetables and potato gratin (possible with fries and bearnaise)" 
+        }
+    ]
+}

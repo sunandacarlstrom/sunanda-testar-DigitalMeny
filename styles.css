@@ -1,0 +1,296 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    color: rgb(255, 60, 0);
+}
+.logo {
+    font-size: 2em;
+    margin: 0;
+}
+.navbar ul li {
+    display: inline;
+    margin-right: 2em;
+    font-weight: 600;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 139, 253);
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: rgb(253, 93, 0);
+}
+
+#btnKött {
+    background: rgb(153, 91, 10);
+    color: white;
+    border: 1px solid rgb(153, 91, 10);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnKött:hover {
+    background: rgb(255, 227, 190);
+    color: rgb(253, 93, 0);
+    border: 4px solid rgb(253, 93, 0);
+}
+
+#btnFisk {
+    background: rgb(5, 61, 192);
+    color: white;
+    border: 1px solid rgb(5, 61, 192);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnFisk:hover {
+    background: rgb(255, 227, 190);
+    color: rgb(253, 93, 0);
+    border: 4px solid rgb(253, 93, 0);
+}
+
+#btnFisk {
+    background: rgb(5, 61, 192);
+    color: white;
+    border: 1px solid rgb(5, 61, 192);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnKött:hover {
+    background: rgb(255, 227, 190);
+    color: rgb(253, 93, 0);
+    border: 4px solid rgb(253, 93, 0);
+}
+
+#btnVego {
+    background: rgb(0, 138, 58);
+    color: white;
+    border: 1px solid rgb(0, 138, 58);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnVego:hover {
+    background: rgb(255, 227, 190);
+    color: rgb(253, 93, 0);
+    border: 4px solid rgb(253, 93, 0);
+}
+
+#btnLaktos {
+    background: rgb(71, 148, 176);
+    color: white;
+    border: 1px solid rgb(71, 148, 176);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnLaktos:hover {
+    background: rgb(255, 227, 190);
+    color: rgb(253, 93, 0);
+    border: 4px solid rgb(253, 93, 0);
+}
+
+#btnGluten {
+    background: rgb(224, 188, 5);
+    color: white;
+    border: 1px solid rgb(224, 188, 5);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnGluten:hover {
+    background: rgb(255, 227, 190);
+    color: rgb(253, 93, 0);
+    border: 4px solid rgb(253, 93, 0);
+}
+
+#btnPris {
+    background: rgb(194, 50, 189);
+    color: white;
+    border: 1px solid rgb(194, 50, 189);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnPris:hover {
+    background: rgb(255, 227, 190);
+    color: rgb(253, 93, 0);
+    border: 4px solid rgb(253, 93, 0);
+}
+
+#btnDelete {
+    background: rgb(212, 18, 18);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(212, 18, 18);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+}
+
+.meny {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 14px;
+}
+
+.meny-rubrik {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    margin: 1em;
+    color: rgb(253, 93, 0);
+}
+
+.meny-course {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 2em;
+    margin: 1em;
+    color: rgb(253, 93, 0);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.meny-grupp {
+    display: grid;
+    grid-template-columns: 1fr; /*Each grupp take up one free ramaining space. Each group takes full width of meny-group   */
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.artiklar {
+    display: flex;
+    transition: background 0.5s, transform 0.5s;
+    padding: 25px;
+    border-radius: 1.5em;
+}
+
+.artiklar:hover {
+    background-color: #e4e5e6;
+    transform: translateY(-10px);
+}
+
+.artikel-img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1.5em;
+}
+
+.description-swedish {
+    line-height: 1.5;
+}
+.description-title {
+    line-height: 1.5;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.description-english {
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.meny-text {
+    flex-grow: 1;
+}
+
+.artikel-namn {
+    margin-right: 20px;
+}
+
+.meny-text {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    text-align: center;
+    bottom: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .meny {
+        font-size: 16px;
+    }
+    .meny-grupp {
+        grid-template-columns: repeat(2, 1fr); /* two evenly size columns*/
+    }
+
+    .artikel-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    footer p {
+        text-align: center;
+        bottom: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+}
