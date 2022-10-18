@@ -33,31 +33,28 @@ function createButtons() {
         createNewMenu();
     });
 
-    // //skapar testknapp - checkbox
-    // const checkbox = document.createElement("input");
-    // checkbox.type = "checkbox";
-    // checkbox.name = "laktos";
-    // checkbox.value = "laktos";
-    // checkbox.id = "id";
+    //skapar testknapp - checkbox | radio
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    //checkbox.type = "radio";
+    checkbox.setAttribute("id", "checkboxLaktos");
+    // checkbox.setAttribute("name", "options");
+    // checkbox.setAttribute("value", "laktos");
 
-    // const label = document.createElement("label");
-    // label.htmlFor = "id";
-    // label.appendChild(document.createTextNode("laktos"));
+    const label = document.createElement("label");
+    label.htmlFor = "checkboxLaktos";
+    label.appendChild(document.createTextNode("laktos"));
 
-    // container.appendChild(checkbox);
-    // container.appendChild(label);
+    container.appendChild(checkbox);
+    container.appendChild(label);
 
-    // function checkBoxFunction() {
-    //     let checkBox = document.getElementById("myCheck");
-    //     let text = document.getElementById("text");
-    //     if (checkBox.checked == true) {
-    //         text.style.display = "block";
-    //     } else {
-    //         text.style.display = "none";
-    //     }
-    // }
-
-    // checkBoxFunction();
+    checkbox.addEventListener("change", function () {
+        if (checkbox.checked) {
+            console.log("är ifylld");
+        } else {
+            console.log("ej ifylld");
+        }
+    });
 
     //Skapar en knapp för fisk rätter
     const btnFisk = document.createElement("button");
