@@ -7,3 +7,5 @@ Testade på egen hand att utforma filtreringsfunktion/sorteringsalternativ för 
 Jag gav två förslag på design av sorteringsalternativ, antingen att man skriver ut exakt "Visa laktosfria rätter" eller endast "laktos" med tillhörande checkbox.
 
 Såhär såg sidan ut när jag pushade upp mitt färdiga “test-projekt” och det var detta som blev grunden för vårt slutgiltiga projekt: https://thjulfors.github.io/Digital-Meny/
+
+P.S. öppna och läs bifogad PDF för att läsa min självvärdering av grupparbetet. 
